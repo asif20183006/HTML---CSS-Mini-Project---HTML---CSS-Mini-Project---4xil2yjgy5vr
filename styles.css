@@ -7,7 +7,6 @@
     position: relative;
     width: 100%;
     height: 100vh;
-    /*background-image: linear-gradient(120deg,rgba(103,58,0.5),rgba(103,58,0.5));*/
     background-size: cover;
     background-position: center;
     background-image: url('images/banner.JPG');
@@ -38,10 +37,22 @@ nav,.navbar ul{
 }
 .navbar ul li a{
     text-decoration: none;
-    color: #FBE5E5;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:20px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:#ffffff;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    display:inline-block;
 }
 .navbar ul li:hover{
-    transform: scale(0.9);
+    color:#db1414;
+    background-color:#FFA1C9;
+    border-radius:9px;
 }
 button{
     padding: 12px 20px;
@@ -119,7 +130,6 @@ h2{
 .column img{
     width: 100%;
     cursor: pointer;
-    transition: transform 0.5s ;
 }
 .column img:hover{
     transform: scale(1.05);
@@ -140,6 +150,8 @@ h2{
 }
 .explore-btn:hover{
     transform: scale(0.9);
+    color: white;
+    background-color:#FFA1C9;
 }
 .about-us{
     width: 80%;
@@ -162,5 +174,6 @@ h2{
     margin-top:100px ;
     color: white;
     height: 70px;
-
 }
+    
+    
