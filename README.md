@@ -8,3 +8,11 @@ About section - added about.
 
 footer Section - added copy right.
 
+(q). WHY this project was chosen (what use case does it solve)?
+ans:- To Enhance my existing skill I have chosen this project, this is a simple photography portfolio website, if someone see the website he can take idea how to take photo for photography and after sign Up he can save pictures.
+
+(q). HOW did you make the project (Tech Stack, Database, APIs)>
+ans:- HTML & CSS
+
+(q).  WHAT features, technical things you had implemented?
+ans:- I have added Explore button this button explore more and created sign UP and Login page
